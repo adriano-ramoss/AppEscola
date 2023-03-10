@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:textColor="#000"
         android:textSize="20sp"
-        android:padding="20sp"
+        android:layout_margin="20dp"
         android:textStyle="italic"
         android:layout_gravity="center_horizontal"
         android:text="Escola Da Alegria"/>

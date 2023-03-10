@@ -11,21 +11,31 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
-        android:padding="2dp"
+        android:layout_margin="20dp"
         android:layout_gravity="center"
         android:src="@drawable/logo" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira o usuário" />
+        android:maxLength="100"
+        android:inputType="textEmailAddress"
+        android:hint="Insira seu e-mail"
+        android:padding="10sp"
+        android:drawableEnd="@drawable/person"
+        />
 
     <EditText
+        android:padding="10sp"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
+        android:drawableEnd="@drawable/lock"
+        android:maxLength="30"
         android:layout_height="wrap_content"
         android:hint="Insira a senha" />
 
     <Button
+        android:textAllCaps="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Entrar" />
